@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(52, 35, 97);
+    color: white;
+}
+
+header{
+    height: 50px;
+    clear: both;
+    margin: 20px;
+}
+
+header h2{
+    margin: 0;
+    line-height:25px;
+}
+
+.seated-name{
+    float: left;
+    color: #8E87BA;
+}
+
+.bgca-name{
+    float: right;
+    font-size: 15px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+    padding: 40px;
+}
+
+.instructions{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.input-label{
+    font-size: 22px;
+}
+
+.description{
+    color: #8E87BA;
+    font-size: 15px;
+}
+
+.warning{
+    font-size: 15px;
+    color: #8E87BA;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.fname-input .lname-input{
+    width: 40%;
+}
+
+.email-input{
+    width: 80%;
+}
+
+hr{
+    width: 100%;
+}
+
+.next-btn{
+    border: none;
+    background-color: #8E87BA;
+    border-radius: 2px;
+    color: rgb(52, 35, 97);
+    padding: 10px 20px;
+    margin-left: 60px; 
+}
+
+.flag-number{
+    width: 30px;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+}
+
+footer a{
+    color: #8E87BA;
+    margin-right: 35px;
+}
