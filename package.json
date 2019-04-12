@@ -1,0 +1,23 @@
+{
+    "name": "Hackeando-la-desigualdad",
+    "version": "1.0.0",
+    "description": "Hackeando-la-desigualdad",
+    "main": "src/index.html",
+    "keywords": [
+      "javascript"
+    ],
+    "license": "MIT",
+    "scripts": {
+      "htmlhint": "htmlhint dist/*.html ",
+      "eslint": "eslint --ext .js src/ test/"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.2.2",
+      "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+      "babel-core": "^7.0.0-bridge.0",
+      "eslint": "^5.12.1",
+      "eslint-plugin-jest": "^22.1.2",
+      "htmlhint": "^0.10.1",
+      "regenerator-runtime": "^0.13.1"
+    }
+}
