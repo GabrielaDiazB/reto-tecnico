@@ -1,5 +1,5 @@
 import { firstForm } from './templates/name-form.js';
-import { secondForm } from './templates/email-form.js';
+import { secondForm } from './templates/phonenumber-form.js';
 
 const changeTmp = (hash) => {
   if (hash === '#/' || hash === '' || hash === '#') {

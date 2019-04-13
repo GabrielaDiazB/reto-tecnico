@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
 body{
     background-color: rgb(52, 35, 97);
     color: white;
@@ -31,7 +32,7 @@ header h2{
 }
 
 .instructions{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -40,7 +41,7 @@ header h2{
 }
 
 .input-label{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .description{
@@ -56,15 +57,44 @@ header h2{
 input{
     border: none;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.font-input{
+    font-family: 'Muli', sans-serif;
+}
+
+input:focus{
+    outline:none;
+    border: none;
 }
 
 .fname-input .lname-input{
     width: 40%;
 }
 
+.email-container{
+    animation: yourAnimation1 .9s forwards .0s ease;
+}
+
+@keyframes yourAnimation1{
+    0%{
+        transform: rotate(0) translateY(-30px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+  }
+}
+
 .email-input{
-    width: 80%;
+    width: 80.5%;
+}
+
+.phone-input{
+    width: 70%;
 }
 
 hr{
@@ -76,8 +106,28 @@ hr{
     background-color: #8E87BA;
     border-radius: 2px;
     color: rgb(52, 35, 97);
-    padding: 10px 20px;
-    margin-left: 60px; 
+    padding: 8px 15px;
+    margin-left: 50px; 
+    font-size: 18px;
+}
+
+.active-btn{
+    color:white;
+}
+
+.second-form-box{
+    animation: yourAnimation2 .5s forwards .0s ease;
+}
+
+@keyframes yourAnimation2{
+    0%{
+        transform: rotate(0) translateY(-100px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+    }
 }
 
 .flag-number{
@@ -96,4 +146,12 @@ footer{
 footer a{
     color: #8E87BA;
     margin-right: 35px;
+}
+
+.display-none{
+    display:none;
+}
+
+.display-block{
+    display: block;
 }
