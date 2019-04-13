@@ -1,157 +1,173 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 body{
-    background-color: rgb(52, 35, 97);
+    background-color: rgb(45, 29, 90);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (min-width: 870px) {
 
-header{
-    height: 50px;
-    clear: both;
-    margin: 20px;
-}
-
-header h2{
-    margin: 0;
-    line-height:25px;
-}
-
-.seated-name{
-    float: left;
-    color: #8E87BA;
-}
-
-.bgca-name{
-    float: right;
-    font-size: 15px;
-}
-
-.container{
-    margin: 0 auto;
-    width: 60%;
-    padding: 40px;
-}
-
-.instructions{
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-.input-label{
-    font-size: 20px;
-}
-
-.description{
-    color: #8E87BA;
-    font-size: 15px;
-}
-
-.warning{
-    font-size: 15px;
-    color: #8E87BA;
-}
-
-input{
-    border: none;
-    background-color: transparent;
-    font-size: 23px;
-    text-decoration: none;
-}
-
-.font-input{
-    font-family: 'Muli', sans-serif;
-}
-
-input:focus{
-    outline:none;
-    border: none;
-}
-
-.fname-input .lname-input{
-    width: 40%;
-}
-
-.email-container{
-    animation: yourAnimation1 .9s forwards .0s ease;
-}
-
-@keyframes yourAnimation1{
-    0%{
-        transform: rotate(0) translateY(-30px);
-        opacity: 0;
-        }
-    100%{
-        transform: rotate(0) translateY(0);
-        opacity: 1;
-  }
-}
-
-.email-input{
-    width: 80.5%;
-}
-
-.phone-input{
-    width: 70%;
-}
-
-hr{
-    width: 100%;
-}
-
-.next-btn{
-    border: none;
-    background-color: #8E87BA;
-    border-radius: 2px;
-    color: rgb(52, 35, 97);
-    padding: 8px 15px;
-    margin-left: 50px; 
-    font-size: 18px;
-}
-
-.active-btn{
-    color:white;
-}
-
-.second-form-box{
-    animation: yourAnimation2 .5s forwards .0s ease;
-}
-
-@keyframes yourAnimation2{
-    0%{
-        transform: rotate(0) translateY(-100px);
-        opacity: 0;
-        }
-    100%{
-        transform: rotate(0) translateY(0);
-        opacity: 1;
+    header{
+        height: 50px;
+        clear: both;
+        margin: 20px;
     }
-}
 
-.flag-number{
-    width: 30px;
-    height: auto;
-}
+    header h2{
+        margin: 0;
+        line-height:25px;
+    }
 
-footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: end;
-}
+    .seated-name{
+        float: left;
+        color: #8E87BA;
+    }
 
-footer a{
-    color: #8E87BA;
-    margin-right: 35px;
-}
+    .bgca-name{
+        float: right;
+        font-size: 15px;
+    }
 
-.display-none{
-    display:none;
-}
+    .container{
+        margin: 0 auto;
+        width: 800px;
+        padding: 40px;
+    }
 
-.display-block{
-    display: block;
+    .instructions{
+        font-size: 25px;
+        font-weight: bold;
+        width: 95%;
+    }
+
+    .second-form-box p{
+        width: 90%;
+    }
+
+    .underline{
+        text-decoration: underline;
+    }
+
+    .input-label{
+        font-size: 20px;
+    }
+
+    .description{
+        color: #8E87BA;
+        font-size: 15px;
+    }
+
+    .warning{
+        font-size: 15px;
+        color: #8E87BA;
+    }
+
+    input{
+        border: none;
+        background-color: transparent;
+        font-size: 23px;
+        text-decoration: none;
+    }
+
+    .font-input{
+        font-family: 'Muli', sans-serif;
+        font-size: 30px;
+        width: 40%;
+    }
+
+    input:focus{
+        outline:none;
+        border: none;
+    }
+
+    .fname-input .lname-input{
+        width: 40%;
+        padding: 0;
+    }
+
+    .email-container{
+        animation: yourAnimation1 .9s forwards .0s ease;
+    }
+
+    @keyframes yourAnimation1{
+        0%{
+            transform: rotate(0) translateY(-30px);
+            opacity: 0;
+            }
+        100%{
+            transform: rotate(0) translateY(0);
+            opacity: 1;
+    }
+    }
+
+    .email-input{
+        width: 80%;
+    }
+
+    .phone-input{
+        width: 70%;
+    }
+
+    hr{
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .next-btn{
+        border: none;
+        background-color: #8E87BA;
+        border-radius: 2px;
+        color: rgb(52, 35, 97);
+        padding: 8px 28px;
+        margin-left: 55px; 
+        font-size: 18px;
+    }
+
+    .first-next-btn{
+        margin-left: 40px;
+    }
+
+    .active-btn{
+        color:white;
+    }
+
+    .second-form-box{
+        animation: yourAnimation2 .5s forwards .0s ease;
+    }
+
+    @keyframes yourAnimation2{
+        0%{
+            transform: rotate(0) translateY(-100px);
+            opacity: 0;
+            }
+        100%{
+            transform: rotate(0) translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .flag-number{
+        width: 30px;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    footer a{
+        color: #8E87BA;
+        margin-right: 35px;
+    }
+
+    .display-none{
+        display:none;
+    }
+
+    .display-block{
+        display: block;
+    }
 }
