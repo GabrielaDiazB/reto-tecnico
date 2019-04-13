@@ -74,6 +74,14 @@ body{
         width: 40%;
     }
 
+    .font-input:focus{
+        outline-color: transparent;
+        outline: none;
+        border-color: transparent;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+
     input:focus{
         outline:none;
         border: none;
@@ -118,7 +126,7 @@ body{
         border-radius: 2px;
         color: rgb(52, 35, 97);
         padding: 8px 28px;
-        margin-left: 55px; 
+        margin-left: 30px; 
         font-size: 18px;
     }
 
@@ -146,7 +154,7 @@ body{
     }
 
     .flag-number{
-        width: 30px;
+        width: 50px;
         height: auto;
     }
 
