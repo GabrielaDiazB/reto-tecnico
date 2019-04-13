@@ -104,8 +104,8 @@ body{
 
     @keyframes yourAnimation1{
         0%{
-            transform: rotate(0) translateY(-30px);
-            opacity: 0;
+            transform: rotate(0) translateY(-50px);
+            opacity: 1;
             }
         100%{
             transform: rotate(0) translateY(0);
@@ -142,8 +142,8 @@ body{
         margin-left: 40px;
     }
 
-    .active-btn{
-        color:white;
+    .active{
+        background-color:white;
     }
 
     .second-form-box{

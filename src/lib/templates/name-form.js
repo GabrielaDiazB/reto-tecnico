@@ -60,6 +60,11 @@ export const firstForm = () => {
   namesFormElement.querySelector('#email-container').style.display = 'none';
   namesFormElement.querySelector('#warning-box').style.display = 'none';
 
+  const btnChangeActive = btnToNextForm.classList;
+  if (inputFname.value) {
+    btnChangeActive.className += 'active';
+  };
+
   firstNextBtn.addEventListener('click', () => {
     if (inputFname.value) {
       namesFormElement.querySelector('.second-view').style.display = 'block';
@@ -77,7 +82,6 @@ export const firstForm = () => {
       namesFormElement.querySelector('.second-view').style.display = 'none';
       namesFormElement.querySelector('.name-description').style.display = 'none';
       namesFormElement.querySelector('#disable-btn').style.display = 'none';
-
     }
   });
 
