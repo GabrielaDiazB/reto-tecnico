@@ -73,6 +73,8 @@ export const firstForm = () => {
       namesFormElement.querySelector('#email-container').style.display = 'block';
       namesFormElement.querySelector('#warning-box').style.display = 'block';
       namesFormElement.querySelector('.email-description').style.display = 'block';
+      namesFormElement.querySelector('.email-label').style.display = 'block';
+      namesFormElement.querySelector('.second-view').style.display = 'none';
       namesFormElement.querySelector('.name-description').style.display = 'none';
       namesFormElement.querySelector('#disable-btn').style.display = 'none';
 
