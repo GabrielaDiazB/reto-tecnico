@@ -68,8 +68,14 @@ body{
         text-decoration: none;
     }
 
+    ::placeholder {
+        color: #8E87BA;
+        opacity: .8; 
+    }
+
     .font-input{
         font-family: 'Muli', sans-serif;
+        color:white;
         font-size: 30px;
         width: 40%;
     }
@@ -122,6 +128,7 @@ body{
 
     .next-btn{
         border: none;
+        text-align:center;
         background-color: #8E87BA;
         border-radius: 2px;
         color: rgb(52, 35, 97);
